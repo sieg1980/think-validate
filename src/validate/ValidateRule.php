@@ -10,7 +10,7 @@
 // +----------------------------------------------------------------------
 declare(strict_types=1);
 
-namespace think\validate;
+namespace zimutech\validate;
 
 /**
  * Class ValidateRule
