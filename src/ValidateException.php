@@ -10,7 +10,7 @@
 // +----------------------------------------------------------------------
 declare (strict_types = 1);
 
-namespace zimutech\exception;
+namespace zimutech;
 
 /**
  * 数据验证异常
