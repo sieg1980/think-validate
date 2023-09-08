@@ -10,7 +10,7 @@
 // +----------------------------------------------------------------------
 declare(strict_types=1);
 
-namespace think;
+namespace zimutech;
 
 use Closure;
 use think\exception\ValidateException;
