@@ -1,15 +1,15 @@
 # think-validate
 
-基于PHP5.6+ 的Validate实现
+基于PHP8.1+ 的Validate实现
 
 ## 安装
 ~~~
-composer require topthink/think-validate
+composer require zimutech/php-validate
 ~~~
 
 ## 用法
 ~~~php
-use think\Validate;
+use zimutech\Validate;
 
 $validate = Validate::make([
     'name'  => 'require|max:25',
@@ -65,5 +65,3 @@ if (!$validate->check($data)) {
     var_dump($validate->getError());
 }
 ~~~
-
-更多用法可以参考5.1完全开发手册的[验证](https://www.kancloud.cn/manual/thinkphp5_1/354101)章节
