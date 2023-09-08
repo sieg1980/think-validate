@@ -1,11 +1,11 @@
 {
-    "name": "topthink/think-validate",
-    "description": "think validate",
+    "name": "zimutech/php-validate",
+    "description": "php validator",
     "license": "Apache-2.0",
     "authors": [
         {
-            "name": "liu21st",
-            "email": "liu21st@gmail.com"
+            "name": "sieg",
+            "email": "sieg@zimutech.com"
         }
     ],
     "require": {
@@ -13,7 +13,7 @@
     },
     "autoload": {
         "psr-4": {
-            "think\\": "src"
+            "zimutech\\": "src"
         },
         "files": [
         ]
