@@ -13,9 +13,9 @@ declare(strict_types=1);
 namespace zimutech;
 
 use Closure;
-use think\exception\ValidateException;
-use think\helper\Str;
-use think\validate\ValidateRule;
+use zimutech\ValidateException;
+use zimutech\Str;
+use zimutech\validate\ValidateRule;
 
 /**
  * 数据验证类
